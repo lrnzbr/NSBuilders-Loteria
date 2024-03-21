@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct CellView: View {
+    let card: Card
+
     var body: some View {
         ZStack {
             VStack {
                 HStack {
-                    Text("1")
+                    Text("\(card.id)")
                         .font(.headline)
                         .foregroundColor(.black)
                     Spacer()
                 }
                 VStack {
-                    Image("arbol")
+                    Image(card.imageString)
                         .resizable()
                         .clipped()
                         .aspectRatio(contentMode: .fit)
                         .frame(maxHeight: 130)
                 }.clipped()
-                Text("EL ÁRBOL")
+                Text(card.title)
                     .lineLimit(2)
                     .font(.largeTitle)
                     .minimumScaleFactor(0.2)
@@ -44,5 +46,5 @@ struct CellView: View {
 
 
 #Preview {
-    CellView()
+    CellView(card: cardStack[0])
 }

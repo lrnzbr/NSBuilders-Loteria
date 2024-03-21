@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "4dd23b04-fbd1-489c-b1db-273c53d6039e_16-9-discover-aspect-ratio_default_1073688.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

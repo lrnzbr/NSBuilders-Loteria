@@ -22,7 +22,7 @@ struct GridView: View {
                 LazyVGrid(columns: columns)
                 {
                     ForEach(0...15, id: \.self) { number in
-                        CellView()
+                        CellView(card: cardStack.randomElement()!)
                             .frame(maxWidth: geo.size.width / 4, maxHeight: geo.size.height / 4)
                     }
                 }

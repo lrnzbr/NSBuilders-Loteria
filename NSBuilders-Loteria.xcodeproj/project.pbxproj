@@ -13,6 +13,8 @@
 		EBE8BD992BABD42B008A3552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */; };
 		EBE8BDA02BABD989008A3552 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BD9F2BABD989008A3552 /* CellView.swift */; };
 		EBE8BDA22BABDE1B008A3552 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDA12BABDE1B008A3552 /* GridView.swift */; };
+		EBE8BDA52BABDFC9008A3552 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDA42BABDFC9008A3552 /* Card.swift */; };
+		EBE8BDA72BABE01D008A3552 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDA62BABE01D008A3552 /* CardStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBE8BD9F2BABD989008A3552 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		EBE8BDA12BABDE1B008A3552 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		EBE8BDA42BABDFC9008A3552 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EBE8BDA62BABE01D008A3552 /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EBE8BD8F2BABD42A008A3552 /* NSBuilders-Loteria */ = {
 			isa = PBXGroup;
 			children = (
+				EBE8BDA32BABDFB0008A3552 /* Model */,
 				EBE8BD902BABD42A008A3552 /* NSBuilders_LoteriaApp.swift */,
 				EBE8BD922BABD42A008A3552 /* ContentView.swift */,
 				EBE8BD9F2BABD989008A3552 /* CellView.swift */,
@@ -73,6 +78,15 @@
 				EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBE8BDA32BABDFB0008A3552 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8BDA42BABDFC9008A3552 /* Card.swift */,
+				EBE8BDA62BABE01D008A3552 /* CardStack.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,8 @@
 			files = (
 				EBE8BD932BABD42A008A3552 /* ContentView.swift in Sources */,
 				EBE8BD912BABD42A008A3552 /* NSBuilders_LoteriaApp.swift in Sources */,
+				EBE8BDA72BABE01D008A3552 /* CardStack.swift in Sources */,
+				EBE8BDA52BABDFC9008A3552 /* Card.swift in Sources */,
 				EBE8BDA22BABDE1B008A3552 /* GridView.swift in Sources */,
 				EBE8BDA02BABD989008A3552 /* CellView.swift in Sources */,
 			);
