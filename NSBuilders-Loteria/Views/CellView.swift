@@ -24,7 +24,6 @@ struct CellView: View {
                             Spacer()
                             ForEach(beans, id: \.self){ bean in
                                 VStack {
-                                    //Text(bean)
                                     Image("bean")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
@@ -48,6 +47,8 @@ struct CellView: View {
                     .font(.largeTitle)
                     .minimumScaleFactor(0.2)
                     .multilineTextAlignment(.center)
+                    .foregroundColor(beans.count > 0 ? .green : .black)
+
             }
         }
         .frame(maxWidth: 200, maxHeight: 250)
@@ -56,7 +57,7 @@ struct CellView: View {
         .cornerRadius(20)
         .overlay(
             RoundedRectangle(cornerRadius: 20)
-                .stroke(.black, lineWidth: 1)
+                .stroke(beans.count > 0 ? .green : .black, lineWidth: 1)
         )
     }
 }

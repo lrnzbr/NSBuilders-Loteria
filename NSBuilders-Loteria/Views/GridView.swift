@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct GridView: View {
     @Binding var beansInBucket:[String]
@@ -46,6 +47,7 @@ struct GridView: View {
                                     }
                                     beansInSquare[number] = currentBeans
                                 }
+                                AudioServicesPlaySystemSound(1022)
                                 return true
                                 
                             }

@@ -52,7 +52,6 @@
 		EBE8BD842BABD42A008A3552 = {
 			isa = PBXGroup;
 			children = (
-				EBE8BDB12BABF138008A3552 /* ChanterView.swift */,
 				EBE8BD8F2BABD42A008A3552 /* NSBuilders-Loteria */,
 				EBE8BD8E2BABD42A008A3552 /* Products */,
 			);
@@ -72,11 +71,7 @@
 				EBE8BD902BABD42A008A3552 /* NSBuilders_LoteriaApp.swift */,
 				EBE8BDAA2BABE413008A3552 /* Utilities */,
 				EBE8BDA32BABDFB0008A3552 /* Model */,
-				EBE8BDAB2BABE4E0008A3552 /* PlayView.swift */,
-				EBE8BDAF2BABF0E3008A3552 /* GameModeView.swift */,
-				EBE8BDAD2BABE507008A3552 /* HeaderView.swift */,
-				EBE8BD9F2BABD989008A3552 /* CellView.swift */,
-				EBE8BDA12BABDE1B008A3552 /* GridView.swift */,
+				EBE8BDB32BABF3EA008A3552 /* Views */,
 				EBE8BD942BABD42B008A3552 /* Assets.xcassets */,
 				EBE8BD962BABD42B008A3552 /* NSBuilders_Loteria.entitlements */,
 				EBE8BD972BABD42B008A3552 /* Preview Content */,
@@ -107,6 +102,19 @@
 				EBE8BDA82BABE40B008A3552 /* Utilities.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EBE8BDB32BABF3EA008A3552 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBE8BDAB2BABE4E0008A3552 /* PlayView.swift */,
+				EBE8BDB12BABF138008A3552 /* ChanterView.swift */,
+				EBE8BDAD2BABE507008A3552 /* HeaderView.swift */,
+				EBE8BDAF2BABF0E3008A3552 /* GameModeView.swift */,
+				EBE8BD9F2BABD989008A3552 /* CellView.swift */,
+				EBE8BDA12BABDE1B008A3552 /* GridView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
