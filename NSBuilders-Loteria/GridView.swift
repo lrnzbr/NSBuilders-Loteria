@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GridView: View {
+    @Binding var playingCards:[Card]
     
     let columns: [GridItem] = [
         GridItem(.flexible(), spacing: 12),
@@ -22,7 +23,7 @@ struct GridView: View {
                 LazyVGrid(columns: columns)
                 {
                     ForEach(0...15, id: \.self) { number in
-                        CellView(card: cardStack.randomElement()!)
+                        CellView(card: playingCards[number])
                             .frame(maxWidth: geo.size.width / 4, maxHeight: geo.size.height / 4)
                     }
                 }
@@ -34,5 +35,5 @@ struct GridView: View {
 }
 
 #Preview {
-    GridView()
+    GridView(playingCards: .constant(Array(cardStack[0...15])))
 }
