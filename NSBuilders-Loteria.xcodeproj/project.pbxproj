@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EBE8BD912BABD42A008A3552 /* NSBuilders_LoteriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BD902BABD42A008A3552 /* NSBuilders_LoteriaApp.swift */; };
-		EBE8BD932BABD42A008A3552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BD922BABD42A008A3552 /* ContentView.swift */; };
 		EBE8BD952BABD42B008A3552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE8BD942BABD42B008A3552 /* Assets.xcassets */; };
 		EBE8BD992BABD42B008A3552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */; };
 		EBE8BDA02BABD989008A3552 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BD9F2BABD989008A3552 /* CellView.swift */; };
@@ -18,12 +17,13 @@
 		EBE8BDA92BABE40B008A3552 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDA82BABE40B008A3552 /* Utilities.swift */; };
 		EBE8BDAC2BABE4E0008A3552 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDAB2BABE4E0008A3552 /* PlayView.swift */; };
 		EBE8BDAE2BABE507008A3552 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDAD2BABE507008A3552 /* HeaderView.swift */; };
+		EBE8BDB02BABF0E3008A3552 /* GameModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDAF2BABF0E3008A3552 /* GameModeView.swift */; };
+		EBE8BDB22BABF138008A3552 /* ChanterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BDB12BABF138008A3552 /* ChanterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBE8BD8D2BABD42A008A3552 /* NSBuilders-Loteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSBuilders-Loteria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE8BD902BABD42A008A3552 /* NSBuilders_LoteriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBuilders_LoteriaApp.swift; sourceTree = "<group>"; };
-		EBE8BD922BABD42A008A3552 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBE8BD942BABD42B008A3552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE8BD962BABD42B008A3552 /* NSBuilders_Loteria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSBuilders_Loteria.entitlements; sourceTree = "<group>"; };
 		EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -34,6 +34,8 @@
 		EBE8BDA82BABE40B008A3552 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EBE8BDAB2BABE4E0008A3552 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 		EBE8BDAD2BABE507008A3552 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EBE8BDAF2BABF0E3008A3552 /* GameModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeView.swift; sourceTree = "<group>"; };
+		EBE8BDB12BABF138008A3552 /* ChanterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChanterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		EBE8BD842BABD42A008A3552 = {
 			isa = PBXGroup;
 			children = (
+				EBE8BDB12BABF138008A3552 /* ChanterView.swift */,
 				EBE8BD8F2BABD42A008A3552 /* NSBuilders-Loteria */,
 				EBE8BD8E2BABD42A008A3552 /* Products */,
 			);
@@ -69,8 +72,8 @@
 				EBE8BD902BABD42A008A3552 /* NSBuilders_LoteriaApp.swift */,
 				EBE8BDAA2BABE413008A3552 /* Utilities */,
 				EBE8BDA32BABDFB0008A3552 /* Model */,
-				EBE8BD922BABD42A008A3552 /* ContentView.swift */,
 				EBE8BDAB2BABE4E0008A3552 /* PlayView.swift */,
+				EBE8BDAF2BABF0E3008A3552 /* GameModeView.swift */,
 				EBE8BDAD2BABE507008A3552 /* HeaderView.swift */,
 				EBE8BD9F2BABD989008A3552 /* CellView.swift */,
 				EBE8BDA12BABDE1B008A3552 /* GridView.swift */,
@@ -176,9 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE8BD932BABD42A008A3552 /* ContentView.swift in Sources */,
+				EBE8BDB02BABF0E3008A3552 /* GameModeView.swift in Sources */,
 				EBE8BDAE2BABE507008A3552 /* HeaderView.swift in Sources */,
 				EBE8BD912BABD42A008A3552 /* NSBuilders_LoteriaApp.swift in Sources */,
+				EBE8BDB22BABF138008A3552 /* ChanterView.swift in Sources */,
 				EBE8BDAC2BABE4E0008A3552 /* PlayView.swift in Sources */,
 				EBE8BDA92BABE40B008A3552 /* Utilities.swift in Sources */,
 				EBE8BDA72BABE01D008A3552 /* CardStack.swift in Sources */,

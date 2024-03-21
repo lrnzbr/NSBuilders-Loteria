@@ -11,7 +11,7 @@ import SwiftUI
 struct NSBuilders_LoteriaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameModeView()
         }
     }
 }
