@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CellView: View {
+    let beans: [String]
     let card: Card
 
     var body: some View {
@@ -18,6 +19,22 @@ struct CellView: View {
                         .font(.headline)
                         .foregroundColor(.black)
                     Spacer()
+                    if beans.count > 0 {
+                        HStack {
+                            Spacer()
+                            ForEach(beans, id: \.self){ bean in
+                                VStack {
+                                    //Text(bean)
+                                    Image("bean")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .frame(width: 30)
+                                }
+                                .draggable(bean)
+                            }
+                            
+                        }
+                    }
                 }
                 VStack {
                     Image(card.imageString)
@@ -26,7 +43,7 @@ struct CellView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(maxHeight: 130)
                 }.clipped()
-                Text(card.title)
+                Text(card.title.uppercased())
                     .lineLimit(2)
                     .font(.largeTitle)
                     .minimumScaleFactor(0.2)
@@ -46,5 +63,5 @@ struct CellView: View {
 
 
 #Preview {
-    CellView(card: cardStack[0])
+    CellView(beans: ["bean1"], card: cardStack[4])
 }
