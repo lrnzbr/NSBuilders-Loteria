@@ -11,6 +11,7 @@
 		EBE8BD932BABD42A008A3552 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BD922BABD42A008A3552 /* ContentView.swift */; };
 		EBE8BD952BABD42B008A3552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE8BD942BABD42B008A3552 /* Assets.xcassets */; };
 		EBE8BD992BABD42B008A3552 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */; };
+		EBE8BDA02BABD989008A3552 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8BD9F2BABD989008A3552 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EBE8BD942BABD42B008A3552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE8BD962BABD42B008A3552 /* NSBuilders_Loteria.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSBuilders_Loteria.entitlements; sourceTree = "<group>"; };
 		EBE8BD982BABD42B008A3552 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBE8BD9F2BABD989008A3552 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				EBE8BD902BABD42A008A3552 /* NSBuilders_LoteriaApp.swift */,
 				EBE8BD922BABD42A008A3552 /* ContentView.swift */,
+				EBE8BD9F2BABD989008A3552 /* CellView.swift */,
 				EBE8BD942BABD42B008A3552 /* Assets.xcassets */,
 				EBE8BD962BABD42B008A3552 /* NSBuilders_Loteria.entitlements */,
 				EBE8BD972BABD42B008A3552 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				EBE8BD932BABD42A008A3552 /* ContentView.swift in Sources */,
 				EBE8BD912BABD42A008A3552 /* NSBuilders_LoteriaApp.swift in Sources */,
+				EBE8BDA02BABD989008A3552 /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
